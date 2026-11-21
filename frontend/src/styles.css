@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f4f5f7; color: #1d2330; }
+.container { max-width: 680px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+h1 { font-size: 1.6rem; }
+.card { background: #fff; border-radius: 12px; padding: 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+label { display: block; margin-bottom: 1rem; font-weight: 600; }
+label small { display: block; font-weight: 400; color: #667; margin-top: .3rem; }
+select, input { display: block; width: 100%; margin-top: .3rem; padding: .6rem; font-size: 1rem; border: 1px solid #ccd; border-radius: 8px; }
+button { padding: .7rem 1.2rem; font-size: 1rem; border: 0; border-radius: 8px; background: #2563eb; color: #fff; cursor: pointer; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+button.secondary { background: #4b5563; }
+button.rec { background: #dc2626; }
+.controls { display: flex; gap: .75rem; flex-wrap: wrap; margin: .75rem 0; }
+.typed { display: flex; gap: .5rem; }
+.typed input { margin: 0; }
+.log { height: 340px; overflow-y: auto; border: 1px solid #e2e4ea; border-radius: 8px; padding: .5rem .9rem; background: #fafbfc; }
+.log .you { color: #1d4ed8; }
+.log .customer { color: #047857; }
+.status { font-weight: 600; margin: .6rem 0 0; }
+.muted { color: #667; }
+.error { color: #b00020; }
+.score { display: grid; grid-template-columns: 150px 1fr 50px; gap: .6rem; align-items: center; margin: .4rem 0; }
+.bar { background: #e5e7eb; border-radius: 6px; height: 10px; overflow: hidden; }
+.bar div { background: #2563eb; height: 100%; }
